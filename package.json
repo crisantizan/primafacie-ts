@@ -1,7 +1,7 @@
 {
   "name": "primafacie-ts",
   "version": "0.0.1",
-  "private": true,
+  "private": false,
   "description": "PrimaFacie UI utilities",
   "repository": {
     "type": "git",
