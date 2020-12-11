@@ -1,5 +1,9 @@
 import { DefineComponent } from 'vue';
 
-declare namespace primafacie {
-  export const Input: DefineComponent;
+interface Props {
+  color: string;
+  message: string;
 }
+
+export const PfInput: DefineComponent;
+export const PfButton: DefineComponent<{ props: Props }>;

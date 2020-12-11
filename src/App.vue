@@ -1,16 +1,19 @@
 <template>
   <h2>Hola mundo</h2>
   <PfInput />
+  <PfButton color="red" message="Message from props" />
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
 import PfInput from './components/PfInput.vue';
+import PfButton from './components/PfButton.vue';
 
 export default defineComponent({
   name: 'App',
   components: {
-    PfInput
+    PfInput,
+    PfButton
   }
 });
 </script>
