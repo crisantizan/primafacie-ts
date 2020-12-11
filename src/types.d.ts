@@ -7,8 +7,6 @@ interface Props {
 
 export const PfInput: DefineComponent;
 export const PfButton: DefineComponent<{
-  props: {
-    color: StringConstructor;
-    message: StringConstructor;
-  };
+  color: StringConstructor;
+  message: StringConstructor;
 }>;
