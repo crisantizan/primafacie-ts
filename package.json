@@ -1,6 +1,6 @@
 {
   "name": "primafacie-ts",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "private": false,
   "description": "PrimaFacie UI utilities",
   "repository": {
@@ -13,7 +13,7 @@
     "url": "https://cristiansantiz.netlify.app"
   },
   "main": "dist/primafacie-ts.common.js",
-  "types": ".src/types.d.ts",
+  "types": "./src/types.d.ts",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build --target lib --name primafacie-ts 'src/index.ts'",
